@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+h1{
+    text-align: center;
+    background-color:  rgb(236, 62, 62);
+    color: white;
+    padding: 20px;
+    font-family: 'Luckiest Guy';
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul {
+    background-color: #757575;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+form {
+    width: 600px;
+    background: #2f5983;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 12px 13px 50px #000;
+  }
+
+form {
+    font-size: 19px;
+    margin-bottom: 50px;
+
+  }
+  
+div.grupo {
+    margin-bottom: 15px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+
+button.guardar{
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(236, 62, 62);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 19px;
+    margin-bottom: 50px;
+    box-shadow: 12px 13px 50px #000;
+    
+}
